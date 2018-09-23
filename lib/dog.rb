@@ -58,4 +58,10 @@ class Dog
     self
   end
 
+  def self.create(arguments)
+    student = Student.new(arguments)
+    student.save
+    student
+end
+
 end
