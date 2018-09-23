@@ -59,9 +59,9 @@ class Dog
   end
 
   def self.create(arguments)
-    student = Student.new(arguments)
-    student.save
-    student
+    dog = Dog.new(arguments)
+    dog.save
+    dog
 end
 
 end
